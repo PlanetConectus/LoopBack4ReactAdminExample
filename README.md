@@ -6,7 +6,7 @@
 This is a sample with a React Admin and Loopback4 to implement Crud operations on `products` and `users` by requesting  APIs with LoopBack4 Provider that you can install with `npm install react-admin-loopback4-adapted`.
 
 
-## Installation 
+## Installations 
 
 
 ### Install node v12.18.3 with nvm 

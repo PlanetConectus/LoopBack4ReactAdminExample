@@ -92,14 +92,19 @@ the `lb4Provider` that takes as a @param the url to the backend server `http://l
 ```ruby
 const dataProvider = lb4Provider('http://localhost:3001');
 ```
- 
 
+**note** in this sample the authentication is not integrated we will complete it in the next tutorial 
 
+# CONTACT
 
+## if you have any question or you want to have advantage of our services please contact us 
+```ruby
+Site : https://planetconectus.com
 
-**note** in this sample the authentication is not integrated we will complete it's logic in the next tutorial 
+E-mail : mohamedali.chaabani@planetconectus.com
 
-
+Phone : 00216 26 410 947
+````
 
 
 

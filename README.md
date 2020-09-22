@@ -43,7 +43,39 @@ After cloning the project with `git clone https://github.com/PlanetConectus/Loop
 ## Launching the apps
  
 in this project we tried to reduce complexity for you to get both the frontend server and the backend server in the same local machine to do this we force the binding port of the Loopback4 server to `3001`
-in the `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce/src/index.ts` file, this is because you cant bind two processes to the same `[IP:PORT]` in our case the binding IP is `127.0.0.1`  it's known as `localhost` , this modification will prevent `CORS blocks` by you navigator,to solve this problem we use the integrated node proxy by adding this line `"proxy": "http://localhost:3001"` in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce/package.json`.
+in the `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce/src/index.ts` file:
+```ruby 
+const app = new EcommerceApplication({
+    rest: {
+      port: 3001
+    }
+  });
+
+```
+this is because you cant bind two processes to the same `[IP:PORT]` , in our case the binding IP is `127.0.0.1`  it's known as `localhost` , this modification will prevent `CORS blocks` by you navigator,to solve this problem we use the integrated node proxy by adding this line `"proxy": "http://localhost:3001"` in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce/package.json`:
+```ruby
+{
+ .
+ .
+ .
+ . ,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001", // <~~~ here we add the proxy field in package.json
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+.
+.
+.
+}
+
+```
+
 
 ### Start the servers
 

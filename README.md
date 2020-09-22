@@ -92,7 +92,7 @@ the `lb4Provider` that takes as a @param the url to the backend server `http://l
 ```ruby
 const dataProvider = lb4Provider('http://localhost:3001');
 ```
-**note** the 
+ 
 
 
 

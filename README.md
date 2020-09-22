@@ -77,7 +77,7 @@ To create a production build, use npm run build.
 
 ### The application file app.js
 
-in the react admin application the  `src/app.js` is exported to the entry point `src/index.js` where node start resolving and mapping the `imports` and `exports`, look at the top of the `index.js` file to see the import of `app.js`:
+in the react admin application the  `src/app.js` is exported to the entry point `src/index.js` where node start resolving and mapping the `imports` and `exports`, look at the top of the `index.js` file to see the import of `App` function:
 
 ```ruby
 import React from 'react';

@@ -31,7 +31,7 @@ if you want to activate `mongod.service` automatically on startup of ubuntu use 
 `sudo systemctl enable mongod.service` then `sudo systemctl start mongod.service`.
 
 
-### Setting up mongodb Complass
+### Setting up mongodb Compass
 
 install mongodb Compass from the official website `https://www.mongodb.com/try/download/compass` and follow instructions to get it on your local machine.this tool helps you to manage easily your database. 
 

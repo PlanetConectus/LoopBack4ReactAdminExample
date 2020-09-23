@@ -118,7 +118,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 ```
-inside the `app.js `you will find all what you want to know about how the application resolve the 
+inside the `app.js `you will find all what you want to know about how the application resolve 
 the items from APIs by importing the module `react-admin-loopback4-adapted` and instantiate an object from  
 the `lb4Provider` that takes as a @param the url to the backend server `http://localhost:3001`:
 ```ruby

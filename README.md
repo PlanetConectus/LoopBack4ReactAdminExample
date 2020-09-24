@@ -27,7 +27,7 @@ follow the instructions to get node in your local machine
 install mongoDb from the official website `https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/` and follow the guide to get the final release `MongoDB 4.4`.
 
 **note** : _if an error occur when you try to open the mongodb console with the command `mongo` check if the `mongod.service` is in active state with the command `sudo systemctl status mongod.service`_ , you can activate the `mongod.service` with the command `sudo systemctl start mongod.service`,
-if you want to activate `mongod.service` automatically on startup of ubuntu use the following comands:
+if you want to activate `mongod.service` automatically on startup of ubuntu use the following commands:
 `sudo systemctl enable mongod.service` then `sudo systemctl start mongod.service`.
 
 

@@ -83,7 +83,7 @@ get in `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce` and run the comm
 Server is running at http://[::1]:3001
 Try http://[::1]:3001/ping
 ```
-**II- start the Frontend server**
+**II- Start the Frontend server**
 
 get in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce` and run the command `npm start`
 ```ruby

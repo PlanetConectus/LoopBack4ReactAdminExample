@@ -52,7 +52,7 @@ const app = new EcommerceApplication({
   });
 
 ```
-this is because you cant bind two processes to the same `[IP:PORT]` , in our case the binding IP is `127.0.0.1`  it's known as `localhost` , this modification will prevent `CORS blocks` by you navigator,to solve this problem we use the integrated node proxy by adding this line `"proxy": "http://localhost:3001"` in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce/package.json`:
+this is because you cant bind two processes to the same `[IP:PORT]` , in our case the binding IP is `127.0.0.1`  it's known as `localhost` , this setup  will cause`CORS blocks` by you navigator,to solve this problem we use the integrated node proxy by adding this line `"proxy": "http://localhost:3001"` in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce/package.json`:
 ```ruby
 {
  .

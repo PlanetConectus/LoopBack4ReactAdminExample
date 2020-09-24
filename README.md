@@ -71,10 +71,11 @@ this is because you cant bind two processes to the same `[IP:PORT]` , in our cas
 
 ### Start the servers
 
-after setting the changes that we mention in the previous section we start turning the servers and discover how easy is to `create` and `modify` or `delete` a `product` or a `user`
+after setting up the changes that we mention in the previous section we start turning the servers and discover how easy is to `create` and `modify` or `delete` a `product` or a `user`
 
+**I- Start the backend server**
 
-1. get in `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce` and run the command `npm start`
+get in `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce` and run the command `npm start`
 
 ``` ruby
 > node -r source-map-support/register .
@@ -82,8 +83,9 @@ after setting the changes that we mention in the previous section we start turni
 Server is running at http://[::1]:3001
 Try http://[::1]:3001/ping
 ```
+**II- start the Frontend server**
 
-2. get in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce` and run the command `npm start`
+get in the `LoopBack4ReactAdminExample/Frontreactadmin/ecommerce` and run the command `npm start`
 ```ruby
 Compiled successfully!
 

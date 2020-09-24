@@ -97,8 +97,11 @@ You can now view ecommerce in the browser.
 Note that the development build is not optimized.
 To create a production build, use npm run build.
 
+`
 ```
-3. copy this link `http://localhost:3000` to your browser to get in the react admin app and start managing the `products` and `users`.
+**III- Test your application*** 
+
+ copy this link `http://localhost:3000` to your browser to get in the react admin app and start managing the `products` and `users`.
 
 
 ### The application file app.js

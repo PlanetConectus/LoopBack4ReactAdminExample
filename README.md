@@ -59,12 +59,6 @@ this is because you cant bind two processes to the same `[IP:PORT]` , in our cas
  .
  .
  . ,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "proxy": "http://localhost:3001", // <~~~ here we add the proxy field in package.json
   "eslintConfig": {
     "extends": "react-app"

@@ -60,9 +60,7 @@ this is because you cant bind two processes to the same `[IP:PORT]` , in our cas
  .
  . ,
   "proxy": "http://localhost:3001", // <~~~ here we add the proxy field in package.json
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+ 
 .
 .
 .

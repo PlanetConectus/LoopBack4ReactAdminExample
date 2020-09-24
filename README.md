@@ -99,7 +99,7 @@ To create a production build, use npm run build.
 
 `
 ```
-**III- Test your application*** 
+**III- Test your application**
 
  copy this link `http://localhost:3000` to your browser to get in the react admin app and start managing the `products` and `users`.
 

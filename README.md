@@ -73,7 +73,7 @@ this is because you cant bind two processes to the same `[IP:PORT]` , in our cas
 
 after setting up the changes that we mention in the previous section we start turning the servers and discover how easy is to `create` and `modify` or `delete` a `product` or a `user`
 
-**I- Start the backend server**
+**I- Start the Backend server**
 
 get in `LoopBack4ReactAdminExample/BackendLoopbackV4/ecommerce` and run the command `npm start`
 

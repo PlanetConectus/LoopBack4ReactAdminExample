@@ -127,7 +127,9 @@ the `lb4Provider` that takes as a @param the url to the backend server `http://l
 const dataProvider = lb4Provider('http://localhost:3001');
 ```
 
-**note** in this sample the authentication is not integrated we will complete it in the next tutorial 
+**note** In this sample the authentication is not integrated we will complete it in the next tutorial 
+
+**note** To Learn more about React Admin please follow this link : https://marmelab.com/react-admin/Readme.html
 
 # CONTACT
 

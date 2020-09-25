@@ -1,4 +1,6 @@
-# Sample Example of BackOffice And API Generator with the minimum Code and Flexible Architecture
+# Sample Example  BackOffice And API Generator 2020
+Less Code and Flexible Architecture for a Mobile Developer who want to develop Web Easily , for companies who want an easy architecture that save money and time
+No more need for Back End Developer at 2020, Only Need a Front End Developer 
 
 # React Admin and Loopback 4 Crud Sample
 

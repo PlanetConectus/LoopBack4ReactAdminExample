@@ -126,6 +126,34 @@ the `lb4Provider` that takes as a @param the url to the backend server `http://l
 ```ruby
 const dataProvider = lb4Provider('http://localhost:3001');
 ```
+**This is the content of app.js**
+
+```ruby
+import * as React from 'react';
+import { Admin, Resource } from 'react-admin'
+import PostIcon from '@material-ui/icons/Book'
+import './App.css';
+
+import Dashboard from './dashboard'
+import { ProductList, ProductCreate, Productedit } from './productlist'
+import { Userlist, Useredit, Usercreate } from './user'
+
+import lb4Provider from 'react-admin-loopback4-adapted'
+
+const dataProvider = lb4Provider('http://localhost:3001');
+
+const App = () => (
+  <Admin dataProvider={dataProvider} dashboard={Dashboard}>
+    <Resource name="products" list={ProductList} create={ProductCreate}
+      edit={Productedit} icon={PostIcon} />
+    <Resource name="users" list={Userlist} edit={Useredit}
+      create={Usercreate} />
+  </Admin>
+)
+export default App;
+
+
+```
 
 **note** In this sample the authentication is not integrated we will complete it in the next tutorial 
 
@@ -138,6 +166,8 @@ const dataProvider = lb4Provider('http://localhost:3001');
 Site : https://planetconectus.com
 
 E-mail : mohamedali.chaabani@planetconectus.com
+
+Phone : 00216 26 410 947
 Phone : +33 970 440 431
 ````
 
